@@ -1,5 +1,5 @@
 ## Task Voting
-####author: bio.star1001@gmail.com
+#### author: bio.star1001@gmail.com
 
 #### Description:
 The smart-contract designed to create a voting for a number of candidate(candidates are added by admin at the moment of creation of voting). Contract should accept votes and finalize voting, after admin created it. To participate in voting user must send 0.01 ETH along with a vote() function call. The winner of the vote takes 90% of accumulated ETH, and other 10% goes to Owner of the contract as a fee.
@@ -51,12 +51,15 @@ npx hardhat mockup
 npx hardhat run scripts/deploy.js --network rinkeby
 ```
 
-####Coverage Result
+#### Coverage Result
 
-File  | % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Lines
-------------- | ------------- | ------------- | ------------- | -------------
-contracts\  | 100 | 88.89 | 100 | 100 |
-Ballot.sol | 100 | 88.89 | 100 | 100 |
-All files | 100 | 88.89 | 100 | 100 |
+-------------|----------|----------|----------|----------|----------------|
+File         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-------------|----------|----------|----------|----------|----------------|
+ contracts\  |      100 |    88.89 |      100 |      100 |                |
+  Ballot.sol |      100 |    88.89 |      100 |      100 |                |
+-------------|----------|----------|----------|----------|----------------|
+All files    |      100 |    88.89 |      100 |      100 |                |
+-------------|----------|----------|----------|----------|----------------|
 
 #####End
