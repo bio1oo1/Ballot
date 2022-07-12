@@ -44,6 +44,7 @@ The smart-contract designed to create a voting for a number of candidate(candida
 - contract supports several votings at the same time.
 - try to use optimal algorithms with O(1) complexity
 
+#### Commands:
 ```shell
 npx hardhat test
 npx hardhat coverage --testfiles test/test.js
