@@ -1,6 +1,3 @@
-// const { ethers } = require("hardhat");
-// require("@nomiclabs/hardhat-waffle");
-
 task("mockup", "create sample data").setAction(async () => {
     [owner, ...addrs] = await ethers.getSigners();
     // We get the contract to deploy
